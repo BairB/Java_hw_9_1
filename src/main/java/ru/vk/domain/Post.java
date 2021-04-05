@@ -8,4 +8,6 @@ public class Post {
     private String text;
     private CommentsInfo commentsInfo;
     private PostInfo postInfo;
+
+    private int ownerId; //идентификатор владельца стены
 }
