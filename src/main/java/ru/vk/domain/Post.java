@@ -30,5 +30,8 @@ public class Post {
     private boolean isFavourite;
     private int postponedId;
 
+    private WallSearch wallSearch;
+    private WallDelete wallDelete;
+
 }
 
