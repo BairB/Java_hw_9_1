@@ -14,4 +14,5 @@ public class WallSearch {
     private String domain;
     private String query;
     private int count;
+
 }
