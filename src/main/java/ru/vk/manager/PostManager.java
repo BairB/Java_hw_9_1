@@ -7,13 +7,22 @@ import ru.vk.domain.WallSearch;
 
 public class PostManager {
     WallSearch wallSearch = new WallSearch();
-    public int findOwnersID(int ownerId) {
-        return ownerId;
+    int id = wallSearch.getOwnerId();
+    int count = wallSearch.getCount();
+    String domain = wallSearch.getDomain();
+    String query = wallSearch.getQuery();
+
+    private WallSearch[] wallSearches(){
+        return null;
     }
 
     WallDelete wallDelete = new WallDelete();
-    public int delete(int postId) {
-        return postId;
-    }
+    int ownerId = wallDelete.getOwnerId();
+    int postId = wallDelete.getOwnerId();
 
+    public WallDelete[] getWallDeletes(){
+        return null;
+    }
 }
+
+
