@@ -37,6 +37,4 @@ public class WallSearch {
     public void setCount(int count) {
         this.count = count;
     }
-
-
 }

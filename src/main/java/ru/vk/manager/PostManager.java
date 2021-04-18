@@ -6,23 +6,17 @@ import ru.vk.domain.WallSearch;
 
 
 public class PostManager {
-    WallSearch wallSearch = new WallSearch();
-    int id = wallSearch.getOwnerId();
-    int count = wallSearch.getCount();
-    String domain = wallSearch.getDomain();
-    String query = wallSearch.getQuery();
+    private Post[] posts;
+    Post post = new Post();
 
-    private WallSearch[] wallSearches(){
+    public Post[] search(int ownerId) {
         return null;
     }
 
-    WallDelete wallDelete = new WallDelete();
-    int ownerId = wallDelete.getOwnerId();
-    int postId = wallDelete.getOwnerId();
-
-    public WallDelete[] getWallDeletes(){
-        return null;
+    public void delete(int postId) {
+        return;
     }
+
 }
 
 
