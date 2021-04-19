@@ -9,11 +9,11 @@ public class PostManager {
     private Post[] posts;
     Post post = new Post();
 
-    public Post[] search(int ownerId) {
+    public Post[] search(int ownerId, String domain, String query, int count) {
         return null;
     }
 
-    public void delete(int postId) {
+    public void delete(int postId, int ownerId) {
         return;
     }
 
